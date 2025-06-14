@@ -1,0 +1,5 @@
+jobs:
+  hello:
+    uses: yuucu/sample_reuseable_github_actions/.github/workflows/hello-world.yml@main
+    with:
+      message: "Hello from external repo!"
